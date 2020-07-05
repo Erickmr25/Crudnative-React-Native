@@ -1,25 +1,18 @@
 {
   "clientes": [
     {
-      "nombre": "Fernanda",
+      "nombre": "Fernanda Actualizado",
       "telefono": "34567",
       "empresa": "codigo con erick",
       "correo": "correo@correo.com",
       "id": 1
     },
     {
-      "nombre": "Erick",
-      "telefono": "65432",
-      "empresa": "emr",
-      "correo": "correo@correo.com",
+      "nombre": "Maria",
+      "telefono": "234565432",
+      "empresa": "devmazate",
+      "correo": "correo@correo,com",
       "id": 2
-    },
-    {
-      "nombre": "Erick 2",
-      "telefono": "65432",
-      "empresa": "emr",
-      "correo": "correo@correo.com",
-      "id": 3
     }
   ]
 }

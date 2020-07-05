@@ -1,12 +1,7 @@
 import 'react-native-gesture-handler';
 import React from 'react';
 import {
-  SafeAreaView,
   StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
 } from 'react-native';
 
 import { NavigationContainer } from '@react-navigation/native';
@@ -17,7 +12,6 @@ import { DefaultTheme, Provider as PaperProvider } from 'react-native-paper';
 import Inicio from './views/Inicio';
 import NuevoCliente from './views/NuevoCliente';
 import DetallesCliente from './views/DetallesCliente';
-import BarraSuperior from './components/ui/Barra';
 
 const Stack = createStackNavigator();
 
@@ -57,10 +51,10 @@ const App = () => {
             component={Inicio}
             options={ ({navigation, route}) => ({
               headerTitleAlign: 'center',
-              headerLeft: (props) => <BarraSuperior {...props}  
-                                    navigation={navigation}
-                                    route={route}
-                                />
+              //headerLeft: (props) => <BarraSuperior {...props}  
+                //                    navigation={navigation}
+                  //                  route={route}
+                    //            />
             }) }
           />
           <Stack.Screen
